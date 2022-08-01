@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Guide</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- Sets background gradient -->
+<body class ="gradient-custom">
+  <!-- Creates NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <!-- Sets text in top left corner-->
+        <a class="navbar-brand">User Guide</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <!-- Sets navbar items -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="UserGuide.html">Important Information</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="LoginGuide.html">Login Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="HomeGuide.html">Home Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="RecentGuide.html">Recent Songs Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="NavigationGuide.html">App Navigation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+    <section class="vh-200 mt-7">
+        <!-- Creates Card -->
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              <div class="card bg-light text-black" style="border-radius: 1rem;">
+                <div class="card-body p-5 text-center">
+                  <div class="mb-md-5 mt-md-4 pb-5">
+                      <!-- Card header -->
+                      <h2 class="fw-bold mb-2">Login Information</h2>
+                      <br>
+                      <!-- Adds text -->
+                      <p class="fs-6">
+                        When you open the Music Social you will be greeted by this page below.
+                      </p>
+                      <br>
+                      <!-- Adds image -->
+                      <img src = "images/Login.jpg" class ="img-fluid rounded">
+                      <br>
+                      <br>
+                      <p class="fs-6">
+                        To sign in you must use an account that was registered with the app. 
+                        Register an account the register text can be tapped to open the register page. 
+                        The register page can be seen below.
+                      </p>
+                      <br>
+                      <img src = "images/Register.jpg" class ="img-fluid rounded">
+                      <br>
+                      <br>
+                      <p class="fs-6">
+                        To register an account, add a username and a password of minimum length 6. 
+                        The default eee account is an exception to this rule. 
+                        When logging in with the default account eee can be used as the username and password without consequences. 
+                        After logging in the user will be prompted to Login into Spotify. 
+                        There are differences based on whether the Spotify app is installed or not.
+                      </p>
+                      <br>
+                      <!-- Splits card into columns -->
+                      <!-- Displays images side by side -->
+                      <div class="container">
+                        <div class="row">
+  
+                            <div class="col">
+                                <h4 class="fw-bold mb-2">With Spotify Installed</h2>
+                                <img src = "images/WithSpotLog.jpg" class ="img-fluid rounded">
+                            </div>
+                            <div class="col">
+                                <h4 class="fw-bold mb-2">Without Spotify</h2>
+                                <img src = "images/NoSpotLog.jpg" class ="img-fluid rounded">
+                            </div>
+                        </div>
+                      </div>
+                      <br>
+                      <br>
+                      <p class="fs-6">
+                        If Spotify is installed the app will use the Spotify account connected to the Spotify app and log in. 
+                        If not logged into the app the user will be redirected to the Spotify app to login 
+                        (image could not be obtained due to privacy policies). 
+                        When Spotify is not installed the user will be prompted to login in manually within the app.
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src ="js/bootstrap.min.js"></script>
+</body>
+</html>

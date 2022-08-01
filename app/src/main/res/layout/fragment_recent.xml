@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#606060"
+    tools:context=".RecentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/track7"
+        android:layout_width="335dp"
+        android:layout_height="57dp"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/track6"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <TextView
+        android:id="@+id/recent_tracks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Recently Played"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <Button
+        android:id="@+id/showTracks"
+        android:layout_width="112dp"
+        android:layout_height="38dp"
+        android:text="Display"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recent_tracks"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <Button
+        android:id="@+id/track1"
+        android:layout_width="335dp"
+        android:layout_height="57dp"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showTracks"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <Button
+        android:id="@+id/track2"
+        android:layout_width="335dp"
+        android:layout_height="57dp"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/track1"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <Button
+        android:id="@+id/track3"
+        android:layout_width="335dp"
+        android:layout_height="57dp"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/track2"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <Button
+        android:id="@+id/track4"
+        android:layout_width="335dp"
+        android:layout_height="57dp"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/track3"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <Button
+        android:id="@+id/track5"
+        android:layout_width="335dp"
+        android:layout_height="57dp"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/track4"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <Button
+        android:id="@+id/track6"
+        android:layout_width="335dp"
+        android:layout_height="57dp"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/track5"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <TextView
+        android:id="@+id/playTracks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap Button to Play Song"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

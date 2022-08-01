@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "443892300323",
+    "project_id": "music-social-b42fd",
+    "storage_bucket": "music-social-b42fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443892300323:android:14501aa537273d728c8f96",
+        "android_client_info": {
+          "package_name": "com.example.music_social"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443892300323-aaqpep5rtcjsafe9pqs9h7rf09oq5moc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpd_koyahizlr07YmGZ33jyFe2-3n841E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443892300323-aaqpep5rtcjsafe9pqs9h7rf09oq5moc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
